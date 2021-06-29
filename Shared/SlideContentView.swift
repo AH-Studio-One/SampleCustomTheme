@@ -7,10 +7,18 @@
 
 import SwiftUI
 
-struct SlideContentView: View {
-    let viewModel: SlideViewModel
+public struct SlideContentView: View {
+    public var viewModel: SlideViewModel
+   
+    public init() {
+        viewModel = SlideViewModel(title: "title", subTitle: "subTitle", theme: SampleTheme())
+    }
+    
+    public init(viewModel: SlideViewModel) {
+        self.viewModel = viewModel
+    }
 
-    var body: some View {
+    public var body: some View {
         VStack {
             Text(viewModel.title)
                 .font(viewModel.theme.primaryFont)
