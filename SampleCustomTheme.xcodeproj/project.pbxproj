@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E070E1D6268DC9D3000DAC0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E070E1D5268DC9D3000DAC0D /* ContentView.swift */; };
+		E070E1D7268DC9D3000DAC0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E070E1D5268DC9D3000DAC0D /* ContentView.swift */; };
 		E0B01113268A28FE002CF378 /* SlideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B01110268A28FE002CF378 /* SlideViewModel.swift */; };
 		E0B01114268A28FE002CF378 /* SlideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B01110268A28FE002CF378 /* SlideViewModel.swift */; };
 		E0B01115268A28FE002CF378 /* SlideContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B01111268A28FE002CF378 /* SlideContentView.swift */; };
@@ -15,21 +17,25 @@
 		E0B01118268A28FE002CF378 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B01112268A28FE002CF378 /* Theme.swift */; };
 		E0B0111A268A2949002CF378 /* DemoTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B01119268A2949002CF378 /* DemoTheme.swift */; };
 		E0B0111B268A2949002CF378 /* DemoTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B01119268A2949002CF378 /* DemoTheme.swift */; };
+		E0B01152268B6442002CF378 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B01151268B6442002CF378 /* Data.swift */; };
+		E0B01153268B6442002CF378 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B01151268B6442002CF378 /* Data.swift */; };
 		E0B25704268A1390007D741E /* SampleCustomThemeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B256F1268A138F007D741E /* SampleCustomThemeApp.swift */; };
 		E0B25705268A1390007D741E /* SampleCustomThemeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B256F1268A138F007D741E /* SampleCustomThemeApp.swift */; };
-		E0B25706268A1390007D741E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B256F2268A138F007D741E /* ContentView.swift */; };
-		E0B25707268A1390007D741E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B256F2268A138F007D741E /* ContentView.swift */; };
+		E0B25706268A1390007D741E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B256F2268A138F007D741E /* OnboardingView.swift */; };
+		E0B25707268A1390007D741E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B256F2268A138F007D741E /* OnboardingView.swift */; };
 		E0B25708268A1390007D741E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B256F3268A1390007D741E /* Assets.xcassets */; };
 		E0B25709268A1390007D741E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B256F3268A1390007D741E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E070E1D5268DC9D3000DAC0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E0B01110268A28FE002CF378 /* SlideViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideViewModel.swift; sourceTree = "<group>"; };
 		E0B01111268A28FE002CF378 /* SlideContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideContentView.swift; sourceTree = "<group>"; };
 		E0B01112268A28FE002CF378 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		E0B01119268A2949002CF378 /* DemoTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTheme.swift; sourceTree = "<group>"; };
+		E0B01151268B6442002CF378 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		E0B256F1268A138F007D741E /* SampleCustomThemeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCustomThemeApp.swift; sourceTree = "<group>"; };
-		E0B256F2268A138F007D741E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0B256F2268A138F007D741E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		E0B256F3268A1390007D741E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0B256F8268A1390007D741E /* SampleCustomTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleCustomTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B256FB268A1390007D741E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,13 +75,15 @@
 		E0B256F0268A138F007D741E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				E0B256F1268A138F007D741E /* SampleCustomThemeApp.swift */,
+				E070E1D5268DC9D3000DAC0D /* ContentView.swift */,
+				E0B256F2268A138F007D741E /* OnboardingView.swift */,
 				E0B01111268A28FE002CF378 /* SlideContentView.swift */,
 				E0B01110268A28FE002CF378 /* SlideViewModel.swift */,
-				E0B01112268A28FE002CF378 /* Theme.swift */,
-				E0B256F1268A138F007D741E /* SampleCustomThemeApp.swift */,
-				E0B256F2268A138F007D741E /* ContentView.swift */,
-				E0B256F3268A1390007D741E /* Assets.xcassets */,
 				E0B01119268A2949002CF378 /* DemoTheme.swift */,
+				E0B01112268A28FE002CF378 /* Theme.swift */,
+				E0B01151268B6442002CF378 /* Data.swift */,
+				E0B256F3268A1390007D741E /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -203,9 +211,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B01152268B6442002CF378 /* Data.swift in Sources */,
 				E0B0111A268A2949002CF378 /* DemoTheme.swift in Sources */,
+				E070E1D6268DC9D3000DAC0D /* ContentView.swift in Sources */,
 				E0B01115268A28FE002CF378 /* SlideContentView.swift in Sources */,
-				E0B25706268A1390007D741E /* ContentView.swift in Sources */,
+				E0B25706268A1390007D741E /* OnboardingView.swift in Sources */,
 				E0B01117268A28FE002CF378 /* Theme.swift in Sources */,
 				E0B01113268A28FE002CF378 /* SlideViewModel.swift in Sources */,
 				E0B25704268A1390007D741E /* SampleCustomThemeApp.swift in Sources */,
@@ -216,9 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B01153268B6442002CF378 /* Data.swift in Sources */,
 				E0B0111B268A2949002CF378 /* DemoTheme.swift in Sources */,
+				E070E1D7268DC9D3000DAC0D /* ContentView.swift in Sources */,
 				E0B01116268A28FE002CF378 /* SlideContentView.swift in Sources */,
-				E0B25707268A1390007D741E /* ContentView.swift in Sources */,
+				E0B25707268A1390007D741E /* OnboardingView.swift in Sources */,
 				E0B01118268A28FE002CF378 /* Theme.swift in Sources */,
 				E0B01114268A28FE002CF378 /* SlideViewModel.swift in Sources */,
 				E0B25705268A1390007D741E /* SampleCustomThemeApp.swift in Sources */,
