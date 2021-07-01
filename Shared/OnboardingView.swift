@@ -8,11 +8,14 @@
 import SwiftUI
 
 public struct OnboardingView: View {
-    @Binding var selection: Int
-    @Binding var isWalkthroughViewShowing: Bool
+    var slideViewModels: [SlideViewModel] = []
+    
+    public init(slideViewModels: [SlideViewModel]){
+        self.slideViewModels = slideViewModels
+    }
 
     public var body: some View {
-        TabView(selection: $selection) {
+        TabView() {
             ForEach(slideViewModels.indices, id: \.self) { index in
                 SlideContentView(viewModel: slideViewModels[index])
             }

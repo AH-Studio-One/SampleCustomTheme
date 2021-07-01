@@ -11,7 +11,7 @@ import SwiftUI
 public struct SlideViewModel {
     public let title: String
     public let subTitle:String
-    public let theme: Theme
+    public var theme: Theme?
 
     public init() {
         self.title = "title"
@@ -19,7 +19,7 @@ public struct SlideViewModel {
         self.theme = SampleTheme()
     }
     
-    public init(title: String, subTitle:String, theme: Theme) {
+    public init(title: String, subTitle:String, theme: Theme? = nil) {
         self.title = title
         self.subTitle = subTitle
         self.theme = theme

@@ -11,17 +11,14 @@ struct DemoTheme: Theme {
     var primaryColor: Color
     
     var secondaryColor: Color
-    
-    var bgColor: Color
-    
+        
     var primaryFont: Font
     
     var secondaryFont: Font
     
-    init(primaryColor: Color, secondaryColor: Color, bgColor: Color, primaryFont: Font, secondaryFont: Font) {
+    init(primaryColor: Color, secondaryColor: Color, primaryFont: Font, secondaryFont: Font) {
         self.primaryColor = primaryColor
         self.secondaryColor = secondaryColor
-        self.bgColor = bgColor
         self.primaryFont = primaryFont
         self.secondaryFont = secondaryFont
     }
