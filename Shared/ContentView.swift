@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct ContentView: View {
+public struct ContentView: View {
     @State private var isWalkthroughViewShowing = true
     
-    var body: some View {
+    public var body: some View {
         Group {
             if isWalkthroughViewShowing {
                 OnboardingView(selection: Binding.constant(0), isWalkthroughViewShowing: $isWalkthroughViewShowing)
